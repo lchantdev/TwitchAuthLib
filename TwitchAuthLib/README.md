@@ -7,7 +7,7 @@ Only supports the "code" and "client_credentials" grant types (and also refresh_
 ```csharp
 using TwitchAuthLib;
 
-namespace MyApp;
+namespace MyApp
 {
 	public class MyTwitchAuth
 	{
