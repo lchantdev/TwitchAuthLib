@@ -7,11 +7,25 @@
     <Title>Twitch Oauth Lib</Title>
     <Authors>LChantDev</Authors>
     <Description>Helper for getting oauth tokens with the Twitch API.</Description>
+    <Copyright>© 2024 Lachlan Chant</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>twitch,oauth</PackageTags>
+    <PackageProjectUrl>https://github.com/lchantdev/TwitchAuthLib</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="RestSharp" Version="111.4.0" />
     <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="111.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
